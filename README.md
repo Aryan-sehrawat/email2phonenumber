@@ -1,10 +1,6 @@
 # email2phonenumber
 email2phonenumber is an OSINT tool that allows you to obtain a target's phone number just by having his email address.
 
-For full details check: [https://www.martinvigo.com/email2phonenumber](https://www.martinvigo.com/email2phonenumber)
-
-Demo: [https://www.youtube.com/watch?v=dfvqhDUn81s](https://www.youtube.com/watch?v=dfvqhDUn81s)
-
 ## Basic info
 This tool helps automate discovering someone's phone number by abusing password reset design weaknesses and publicly available data. It supports 3 main functions:
 
@@ -35,5 +31,3 @@ Find target's phone number by resetting passwords on websites that do not alert 
 ```
 python email2phonenumber.py bruteforce -m 555XXX1234 -e target@email.com -p /tmp/proxies.txt -q
 ```
-## Authors
-Martin Vigo - @martin_vigo - [martinvigo.com](https://www.martinvigo.com)
